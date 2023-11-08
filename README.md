@@ -1,6 +1,11 @@
 # angelo-logo-maker
 Module 10 Challenge for UT Full-Stack Bootcamp
 
+## Resources
+(Inquirer documentation)[https://github.com/SBoudrias/Inquirer.js]
+(Jest documentation)[https://github.com/jestjs/jest]
+(mdn web docs SVG Tutorial)[https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial]
+
 GIVEN a command-line application that accepts user input
 
 WHEN I am prompted for text
