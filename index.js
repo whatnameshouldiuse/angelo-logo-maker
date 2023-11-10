@@ -3,11 +3,10 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const MaxLengthInputPrompt = require('inquirer-maxlength-input-prompt')
 const shape = require('./lib/shapes.js');
-const shapeTest = require('./lib/shapes.test.js');
 //#endregion
 
 //#region Setup
-inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt)
+inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
 const questions = [{
     type: 'maxlength-input',
     name: 'text',
@@ -42,7 +41,7 @@ const questions = [{
     message: 'What color would you like for the shape? Use a CSS supported color, or type a # sign and follow it up with 6 hexadecimal values for a custom hex color.',
     default: '#000000'
   }
-]
+];
 //#endregion
 
 function init() {
