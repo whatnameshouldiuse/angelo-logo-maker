@@ -1,28 +1,13 @@
 # angelo-logo-maker
 Module 10 Challenge for UT Full-Stack Bootcamp
 
+## Description
+This script provides a quick and easy way to generate a simple Logo, for small teams or departments that do not face the public, and have no need for a sophisticated graphic design.
+
 ## Resources
 [Inquirer documentation](https://github.com/SBoudrias/Inquirer.js)
 [Jest documentation](https://github.com/jestjs/jest)
 [mdn web docs SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
-GIVEN a command-line application that accepts user input
-
-WHEN I am prompted for text
-THEN I can enter up to three characters
-
-WHEN I am prompted for the text color
-THEN I can enter a color keyword (OR a hexadecimal number)
-
-WHEN I am prompted for a shape
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
-
-WHEN I am prompted for the shape's color
-THEN I can enter a color keyword (OR a hexadecimal number)
-
-WHEN I have entered input for all the prompts
-THEN an SVG file is created named `logo.svg`
-AND the output text "Generated logo.svg" is printed in the command line
-
-WHEN I open the `logo.svg` file in a browser
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+## Walkthrough Video
+[Video Link]()
