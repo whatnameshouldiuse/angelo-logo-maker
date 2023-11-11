@@ -45,7 +45,29 @@ const questions = [{
 //#endregion
 
 function init() {
-  inquirer.prompt(questions);
+  inquirer.prompt(questions).then(async (result) => {
+    var newLogo;
+    switch (result.shape) {
+      case 'Circle':
+        newLogo = new shape.Circle();
+        break;
+      case 'Triangle':
+        newLogo = new shape.Triangle();
+        break;
+      case 'Square':
+        newLogo = new shape.Square();
+        break;
+    }
+    newLogo.setText(result.text);
+    await newLogo.setTextColor(result.textColor);
+    await newLogo.setShapeColor(result.shapeColor);
+    return newLogo.getSVG();
+  })
+  .then((logoSVG) => {
+    fs.writeFile('./exports/logo.svg', logoSVG, (err) => {
+      err ? console.error(err) : console.log('Logo Generated');
+    });
+  })
 }
 
 init();
