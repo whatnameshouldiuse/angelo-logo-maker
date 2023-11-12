@@ -10,4 +10,4 @@ This script provides a quick and easy way to generate a simple Logo, for small t
 [mdn web docs SVG Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
 ## Walkthrough Video
-[Video Link]()
+[Video Link](https://drive.google.com/file/d/1uykQzPZuAEX1l9C3YKMfTIOaJ39cbqUD/view?usp=sharing)
